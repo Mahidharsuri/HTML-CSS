@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="dell" type="image/jpg" href="1701263042653[474].jpg">
+
+        <title>My Website</title>
+    </head>
+<body>
+   <p> This is a normal text </p>
+   <!--convert text to bold-->
+   <p> This is a <b>bold</b> text </p>
+   <p> This is a <i> italic </i> text </p>
+   <p> This is a <u>under lined</u> text </p>
+   <p> This is a <del>deleted</del> text </p>
+   <p> This is a <big> Big </big> text </p>
+   <p> This is a <small>Small</small> text </p>
+   <p> This is a <sub>Subscripted</sub> text </p>
+   <p> This is a <sup>Super Scripted</sup> text </p>
+   <p> This is a <tt>Monospaced</tt> text </p>
+   <p> This is a <mark>Marked</mark> text </p>
+
+</body>
+</html>
