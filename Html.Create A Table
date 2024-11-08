@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ipl.2025
+        </title>
+        <style> 
+        table,td { 
+            border : 1px solid black 
+        }
+        h3{
+            margin-top: 10px;
+            margin-left: 170px;
+
+        }
+        </style>
+       
+    </head>
+    <body>
+        <h1>Indian Premere League 2025</h1>
+        <h3><u>POINTS TABLE</u></h3>
+        <table>
+            <h3 style="color: blue;"></h3>
+            <tr>
+                <td>Teams </td>
+                <td>mts.Played</td>
+                <td>Win</td>
+                <td>Lost</td>
+                <td>Net Runrate</td>
+                <td>No Result</td>
+            </tr>
+            <tr>
+                <td>Chennai Super Kings </td>
+                <td>10</td>
+                <td>7</td>
+                <td>3</td>
+                <td>+3.104</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Royal Challanges Bangalore </td>
+                <td>10</td>
+                <td>6</td>
+                <td>4</td>
+                <td>+2.104</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Sunrises Hyderabad </td>
+                <td>10</td>
+                <td>6</td>
+                <td>4</td>
+                <td>+1.999</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Rajasthan Royals </td>
+                <td>10</td>
+                <td>6</td>
+                <td>4</td>
+                <td>+1.804</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Punjab Kigs </td>
+                <td>10</td>
+                <td>5</td>
+                <td>5</td>
+                <td>+1.505</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Delhi Capitals </td>
+                <td>10</td>
+                <td>4</td>
+                <td>5</td>
+                <td>-2.404</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Gujarat Gaints </td>
+                <td>10</td>
+                <td>4</td>
+                <td>5</td>
+                <td>-2.404</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Laknow Super Gaints </td>
+                <td>10</td>
+                <td>4</td>
+                <td>6</td>
+                <td>-2.999</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Kolkata Knight Riders </td>
+                <td>10</td>
+                <td>3</td>
+                <td>7</td>
+                <td>-4.002</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Mumbai Indians </td>
+                <td>10</td>
+                <td>2</td>
+                <td>7</td>
+                <td>-4.555</td>
+                <td>0</td>
+            </tr>
+        </table>
+    </body>
+    
+</html>
+
+
