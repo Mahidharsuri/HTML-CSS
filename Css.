@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+       <h2 >Welcome to the page !</h2>
+       <p id="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur consectetur aut ex quis quae excepturi perspiciatis provident unde praesentium deleniti iure, rerum obcaecati fugiat modi ipsam debitis mollitia magni pariatur.</p>
+       <p id="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur consectetur aut ex quis quae excepturi perspiciatis provident unde praesentium deleniti iure, rerum obcaecati fugiat modi ipsam debitis mollitia magni pariatur.</p>
+       <p id="p3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur consectetur aut ex quis quae excepturi perspiciatis provident unde praesentium deleniti iure, rerum obcaecati fugiat modi ipsam debitis mollitia magni pariatur.</p>
+       <p id="p4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur consectetur aut ex quis quae excepturi perspiciatis provident unde praesentium deleniti iure, rerum obcaecati fugiat modi ipsam debitis mollitia magni pariatur.</p>
+    </body>
+</html>
+
+
+<!--create a css -->
+
+#p1{
+    color: aquamarine;
+}
+#p2{
+    color: orange;
+}
+#p3{
+    color: skyblue;
+}
+#p4{
+    color: magenta;
+}
+body{
+    color: white;
+    background-color: black;
+}
