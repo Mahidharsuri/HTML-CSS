@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+    </head>
+    <body>
+        <nav style="background-color: lightblue">
+            <h4>WelcomeTo My Page</h4>
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Product</a>
+            <a href="">Contact Us</a>
+        </nav>
+
+        <hr >
+        <main>
+            <h4>To KNow About This Page</h4>
+            <image  src="IMG_0716.JPG" width="100px" height="100px"></image>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magni, sapiente facilis quae autem nemo harum, temporibus suscipit praesentium modi quis quisquam placeat esse incidunt nostrum error perferendis. Nihil, suscipit.</p>    
+
+        </main>
+        <hr>
+        <footer style="background-color: lightblue">
+        Owned by: Suri Mahidhar<br>
+        &copy;reserved <br>
+        <a href="mahidharmax@gmail.com">mahidharmax@gmail.com</a>
+        </footer>
+    </body>
+</html>
