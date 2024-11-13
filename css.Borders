@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Site</title>
+        
+
+        <style>
+h2{
+    border: 3px double red ;
+    border-radius: 15px;
+    background-color: aqua;
+    
+}
+p{
+    border-top: 3px double red ;
+    border-left: 3px double red ;
+    border-right: 3px double red ;
+    border-bottom: 3px double red ;
+    border-radius: 10px;
+    background-color: aqua;
+}
+        </style>
+       
+    </head>
+    <body >
+        <h2>Hi Kaveramma</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora facere nam ipsum, vitae eum sint, dolorum unde asperiores animi dolor impedit cum perferendis sapiente minima iste delectus esse minus quia.</p>
+       
+    
+    </body>
+</html>
