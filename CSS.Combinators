@@ -1,0 +1,44 @@
+-------------------------------------HTML--------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Site !
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <p>This is 1</p>
+            <p>This is 2</p>
+            <div>
+                <p>This is 3</p>
+            </div>
+
+        </div>
+        <p>This is 4</p>
+        <p>this is 5</p>
+    </body>
+</html>  
+
+-------------------------------------CSS--------------------------------
+#container{
+    border:2px solid;
+}
+#container  p{
+    background-color: coral;
+    /* aplly to container paragraphs that is called descenent
+    1,2,3 paras */
+}
+#container > p{
+    background-color: coral;
+    /* This is only applicable for childern of the parent  paras 1 and 2*/
+}
+#container ~ p{
+    background-color: coral;
+    /* This is only applicable for General siblings like paras 4 and 5 */
+}
+#container + p{
+    background-color: coral;
+    /* This is only applicable for Adjencent Sibling consider just After Child  para 4 only consider */
+}
