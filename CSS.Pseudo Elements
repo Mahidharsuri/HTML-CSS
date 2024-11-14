@@ -1,0 +1,33 @@
+-------------------------------HTML------------------------
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Site !
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a href="http://google.com" >Google</a>
+    </body>
+</html>  
+
+------------------CSS-----------------------------------------
+
+a:link{
+    color: rgb(36, 15, 231);
+}
+
+a:hover{
+    color: aqua;
+    font-size: 1.2em;
+}
+a:active{
+    color: brown;
+    font-size: 1.3em;
+}
+a:visited{
+    color: rgb(30, 207, 59);
+    font-size: 1.5em;
+}
