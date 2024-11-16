@@ -1,0 +1,57 @@
+-----------------------------------------HTML------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>My Site</title>
+  <link rel="stylesheet" href="prac.css" >
+</head>
+<body>
+</body>
+<div class="dropdown">
+  <button>Menu</button>
+  <div class="content">
+    <a href="">Instagram</a>
+    <a href="">WhatsApp</a>
+    <a href="">SnapChat</a>
+  </div>
+</div>
+  
+</body>
+</html>
+
+----------------------------------------CSS---------------------------------------------------
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color:hsl(0, 0%, 80%);
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+}
+.dropdown .content{
+    position: absolute;
+    background-color:hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsl(0, 0%, 0%);
+    display: none;
+}
+.dropdown:hover .content{
+    display:block ;
+}
+.dropdown:hover button{background-color:hsl(0, 11%, 70%) ;
+}
+
+.dropdown a:hover{
+    background-color: hsl(210, 24%, 80%);
+}
