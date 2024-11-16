@@ -1,0 +1,50 @@
+---------------------------------------HTML--------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Web Page</title>
+    <link rel="stylesheet" href="prac.css">
+</head>
+<body>
+    <h1>Welcome to the Page #1</h1>
+    <br>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam vitae laborum facilis vel id sed earum ut eveniet culpa temporibus? Nemo omnis iure, illo ea quis porro velit consequuntur fugiat.</p>
+    <br>
+
+   <div class="pagenation">
+    <a href="" ><</a>
+    <a href="" class="active">1</a>
+    <a href="" >2</a>
+    <a href="" >3</a>
+    <a href="" >4</a>
+    <a href="" >5</a>
+    <a href="" >></a>
+   </div>
+</body>
+</html>
+
+-----------------------------------------------------CSS-------------------------------------------
+
+.pagenation{
+    text-align: center;
+    
+}
+.pagenation a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: black;
+    
+}
+.pagenation a.active{
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.pagenation a:hover:not(.active){
+    background-color: #825c2d;
+    border-radius: 7px;
+}
