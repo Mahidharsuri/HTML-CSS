@@ -1,0 +1,53 @@
+------------------------------------HTML---------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>My Site !</title>
+  <link rel="stylesheet" href="prac.css">
+
+</head>
+<body>
+  <h1>Nav Bar</h1>
+  
+  <nav class="bar">
+  <ul>
+    <li><a href="#">HomeS</a> </li>
+    <li><a href="#">About</a> </li>
+    <li><a href="#">Podact</a> </li>
+    <li><a href="#">Contact</a> </li>
+  </ul>
+  </nav>
+</body>
+</html>
+
+------------------------------------CSS--------------------------------------------------
+h1{
+    text-align: center;
+}
+.bar ul{
+    
+    list-style: none;
+    background-color: #0d0505c7;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    width: 302px;
+}
+
+.bar a{
+    color: rgb(174, 87, 149);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.bar a:hover{
+    background-color: #221c1c58;
+}
+
+.bar li{
+ float: left;
+}
