@@ -1,0 +1,43 @@
+------------------------------------------------HTML-------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>My Site !</title>
+  <link rel="stylesheet" href="prac.css">
+</head>
+<body>
+  <div class="gallery">
+   <a target="_blank" href="doc1.jpg">
+    <img src="doc1.jpg" alt="doctor" width="100px">
+  </a>
+  <div class="description">Visitor</div>
+  </div>
+  <div class="gallery">
+   <a target="_blank" href="doctor.jpg">
+    <img src="doctor.jpg" alt="doctor" width="100px" height="120px">
+  </a>
+  <div class="description">Doctor</div>
+  </div>
+  <div class="gallery">
+   <a target="_blank" href="OIP.jpg">
+    <img src="OIP.jpg" alt="doctor" width="100px" height="120px">
+  </a>
+  <div class="description">Hello World </div>
+  </div>
+</body>
+</html>
+
+---------------------------------------------------------CSS----------------------------------------------------------
+.gallery{
+    display: inline-block;
+    border: 1px solid gray;
+    margin: 5px;
+}
+.gallery .description{
+    text-align: center;
+    padding: 10px;
+}
+.gallery:hover{
+    border: 1px solid hwb(0 65% 35% / 0.226);
+}
