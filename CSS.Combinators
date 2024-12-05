@@ -32,7 +32,7 @@
 }
 #container > p{
     background-color: coral;
-    /* This is only applicable for childern of the parent  paras 1 and 2*/
+    /* This is only applicable for childern of the   parent  paras 1 and 2*/
 }
 #container ~ p{
     background-color: coral;
