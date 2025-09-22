@@ -24,7 +24,7 @@
 ----------------------------------------CSS---------------------------------------------------
 .dropdown{
     display: inline-block;
-}
+} 
 .dropdown button{
     background-color:hsl(0, 0%, 80%);
     border-radius: 4px;
