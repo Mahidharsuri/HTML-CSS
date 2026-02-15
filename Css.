@@ -17,7 +17,7 @@
 
 <!--create a css -->
 
-#p1{
+#p1{ 
     color: aquamarine;
 }
 #p2{
